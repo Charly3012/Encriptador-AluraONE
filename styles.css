@@ -1,0 +1,73 @@
+/*
+Propiedades de los botones:
+width: 260px
+height: 195px
+top: 255px
+left: 369px
+gap: 16px
+border: 1   
+*/
+
+
+
+:root {
+    --lblue-100: #F3F5FC;
+    --lblue-200: #EFF1FA;
+    --lblue-300: #E9ECF8;
+    --lblue-400: #AAB2D5;
+    --lblue-500: #757FB2;
+
+    --dblue-100: #609ED4;
+    --dblue-200: #356EA9;
+    --dblue-300: #0A3871;
+    --dblue-400: #072B61;
+    --dblue-500: #052051;
+
+    --gray-100: #CED4D4;
+    --gray-200: #ADB5DB;
+    --gray-300: #868E96;
+    --gray-400: #495057;
+    --gray-500: #343A40;
+
+}
+
+* {
+    font-family: "inter";
+}
+
+body {
+    background-color: var(--lblue-300);
+}
+
+#logo {
+    width: 2.1%;
+    padding: 2.5% 3%;
+}
+
+.aplicacion {
+    background-color: #fcfcfc;
+    width: 75%;
+    margin: 0 auto;
+    border-radius: 40px;
+}
+
+.entrada {}
+
+#txt-encriptar {
+    resize: none;
+    font-size: 32px;
+    color: var(--dblue-300);
+    background-color: var(--lblue-300);
+    border: none;
+    box-shadow: none;
+    outline: none;
+}
+
+#txt-encriptar::placeholder {
+    color: var(--dblue-300);
+}
+
+
+
+
+.salida {}
